@@ -19,7 +19,7 @@ injection = eia_json["series"][0]["calculated"]["net_change"] # traverses JSON t
 injection = int(injection) # ensures the number is an integer
 release_date = eia_json["current_week"]
 
-text = "<@&645986406371426316> EIA Supply results are in!"
+text = "<@&849420131947511839> EIA Supply results are in!"
 if injection > 0:
     text += f" We have injected **{injection}** billion cubic feet from supplies "
 elif injection == 0:
